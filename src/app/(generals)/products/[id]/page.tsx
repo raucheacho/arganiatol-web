@@ -1,6 +1,5 @@
 import { getProduct } from "@/actions/products";
 import { ProductCarousel } from "@/components/ProductCarousel";
-import SetQuantity from "@/components/SetQuantity";
 import Button from "@/components/ui/button-argan";
 import { Star } from "lucide-react";
 import Head from "next/head";
@@ -9,6 +8,8 @@ import Image from "next/image";
 const ProductPage = async ({ params }: { params: Promise<{ id: string }> }) => {
   const { id } = await params;
   const product = await getProduct(id);
+  console.log(product);
+
   // const { items: cartItems, updateQuantity, addItem } = useCartStore();
 
   // const currProductQuantity =
@@ -128,7 +129,7 @@ const ProductPage = async ({ params }: { params: Promise<{ id: string }> }) => {
 
             {/* Quantity + Cart */}
             <div className="flex items-center gap-4 mb-6">
-              <SetQuantity currProductQuantity={1} />
+              {/* <SetQuantity currProductQuantity={1} /> */}
               <Button variant="light">Add to cart</Button>
             </div>
 

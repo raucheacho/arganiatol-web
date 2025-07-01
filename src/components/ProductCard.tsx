@@ -13,16 +13,22 @@ export default function ProductCard({
   image,
   title,
   price,
-  isNew = false,
+  isNew = true,
   id,
 }: ProductCardProps) {
   return (
     <div className="bg-[#FFF6DA] p-3 relative group overflow-hidden">
       {/* Badge */}
-      {isNew && (
+      {isNew ? (
         <div className="w-full flex mb-2">
-          <span className="bg-[#FB6431] px-2 text-white rounded-sm mr-5 text-sm uppercase">
+          <span className="bg-[#FB6431] px-2 text-white mr-5 text-xs uppercase">
             New
+          </span>
+        </div>
+      ) : (
+        <div className="w-full flex mb-2">
+          <span className="bg-[#E5BC38] px-2 text-white mr-5 text-xs uppercase">
+            disponible
           </span>
         </div>
       )}
@@ -34,18 +40,18 @@ export default function ProductCard({
           alt={title}
           width={300}
           height={256}
-          className="lg:w-full lg:h-64 object-contain"
+          className="lg:w-full lg:h-64 h-48 object-contain"
         />
       </div>
 
       {/* Infos produit */}
-      <div className="flex justify-between items-center mt-4">
+      <div className="flex justify-between items-start mt-4 ">
         <h3 className="font-medium text-black text-xs md:text-base">{title}</h3>
         <h3 className="font-medium text-black text-xs md:text-base">{price}</h3>
       </div>
 
       {/* Boutons au survol */}
-      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm flex flex-col items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+      <div className="absolute inset-0 bg-[#E5BC38]/50 backdrop-blur-xs flex flex-col items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
         <button className="bg-[#E5BC38] text-black px-4 py-2 cursor-pointer hover:bg-[#E5BC38]/80 transition-all duration-200 w-40">
           Ajouter au panier
         </button>

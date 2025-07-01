@@ -3,7 +3,7 @@ import ProductGrid from "./ProductGrid";
 
 const ProductSection = async () => {
   const products = await getProducts();
-  console.log(products);
+  // console.log(products);
 
   return (
     <div className="py-10 px-5 space-y-10">

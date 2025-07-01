@@ -10,7 +10,6 @@ const SetQuantity = ({
   const [quantity, SetQuantity] = useState(1);
   const { items: cartItems } = useCartStore();
   console.log(cartItems, currProductQuantity);
-  SetQuantity(currProductQuantity);
 
   return (
     <input
