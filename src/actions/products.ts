@@ -2,7 +2,7 @@
 import WooCommerceRestApi from "woocommerce-rest-ts-api";
 
 const WooCommerce = new WooCommerceRestApi({
-  url: "https://arganiatol.com/",
+  url: process.env.NEXT_PUBLIC_SITE_URL as string,
   consumerKey: process.env.WC_CONSUMER_KEY as string,
   consumerSecret: process.env.WC_CONSUMER_SECRET as string,
   version: "wc/v3",

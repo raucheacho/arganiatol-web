@@ -4,6 +4,7 @@ import GuaranteeSection from "@/components/GuaranteeSection";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import NewsletterForm from "@/components/NewsletterForm";
+import ProductSection from "@/components/ProductSection";
 import ShowcaseLeft from "@/components/ShowcaseLeft";
 import ShowcaseRight from "@/components/ShowcaseRight";
 import VideoBanner from "@/components/VideoBanner";
@@ -21,7 +22,7 @@ export default function Home() {
         </div>
         <GuaranteeSection />
         <VideoBanner />
-        {/* <ProductSection /> */}
+        <ProductSection />
         <NewsletterForm />
         <Gallery />
         <Footer />

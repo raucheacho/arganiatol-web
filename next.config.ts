@@ -8,6 +8,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "arganiatol.com",
       },
+      {
+        protocol: "https",
+        hostname: "store.arganiatol.com",
+      },
+      {
+        protocol: "https",
+        hostname: "dev.arganiatol.com",
+      },
     ],
   },
 };
