@@ -1,21 +1,16 @@
 "use client";
-import { useModal } from "@/lib/ModalProvider";
 import Link from "next/link";
 import { useState } from "react";
-import { LoginModal } from "./LoginModal";
 import Menu from "./Menu";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { openModal } = useModal();
+
   return (
     <header className="bg-black sticky top-0 z-50">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between bg-black px-4 text-[#E5BC38]">
         <nav className="hidden items-center space-x-4 lg:flex">
-          <button
-            onClick={() => openModal(<LoginModal />)}
-            className="flex space-x-2"
-          >
+          <button className="flex space-x-2">
             <svg
               width="24"
               height="24"

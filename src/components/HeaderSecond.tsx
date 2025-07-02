@@ -1,16 +1,13 @@
 "use client";
 
 import { menuItems } from "@/constants/menu";
-import { useModal } from "@/lib/ModalProvider";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { LoginModal } from "./LoginModal";
 import Menu from "./Menu";
 
 export default function HeaderSecond() {
   const [isOpen, setIsOpen] = useState(false);
-  const { openModal } = useModal();
 
   return (
     <header className="bg-black text-[#E5BC38] sticky top-0 z-50">
@@ -38,10 +35,7 @@ export default function HeaderSecond() {
         {/* Desktop Icons */}
         <nav className="hidden lg:flex items-center space-x-6">
           {/* Login */}
-          <button
-            onClick={() => openModal(<LoginModal />)}
-            className="flex space-x-2 items-center"
-          >
+          <button className="flex space-x-2 items-center">
             <svg
               width="24"
               height="24"

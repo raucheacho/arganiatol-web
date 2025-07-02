@@ -6,14 +6,12 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { useModal } from "@/lib/ModalProvider";
+
 import Button from "./ui/button-argan";
 
 export const LoginModal = () => {
-  const { closeModal } = useModal();
-
   return (
-    <Dialog open onOpenChange={closeModal}>
+    <Dialog>
       <DialogContent className="bg-[#FFF6DA] border-2 border-black">
         <DialogHeader>
           <DialogTitle className="text-5xl">Login</DialogTitle>
