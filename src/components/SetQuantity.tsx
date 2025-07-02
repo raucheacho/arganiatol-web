@@ -2,12 +2,12 @@
 import { useCartStore } from "@/stores/cart-store";
 import { useState } from "react";
 
-const SetQuantity = ({
+const ManageQuantity = ({
   currProductQuantity,
 }: {
   currProductQuantity: number;
 }) => {
-  const [quantity, SetQuantity] = useState(1);
+  const [quantity] = useState(1);
   const { items: cartItems } = useCartStore();
   console.log(cartItems, currProductQuantity);
 
@@ -21,4 +21,4 @@ const SetQuantity = ({
   );
 };
 
-export default SetQuantity;
+export default ManageQuantity;
