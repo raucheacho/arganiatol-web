@@ -100,7 +100,7 @@ const ProductPage = async ({ params }: { params: Promise<{ id: string }> }) => {
                 className="relative z-10 border w-full h-full object-contain  border-black"
               />
             </div>
-            <ProductCarousel />
+            <ProductCarousel images={product.images} />
           </div>
 
           {/* Product Info */}

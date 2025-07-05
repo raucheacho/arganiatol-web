@@ -1,0 +1,102 @@
+{
+  "Menu": {
+    "login": "Se connecter",
+    "home": "Accueil",
+    "collections": "collections",
+    "ourStory": "En savoir plus",
+    "blog": "Article",
+    "contactUs": "Contactez-nous",
+    "wishlist": "Favoris"
+  },
+  "LocaleSwitcher": {
+    "label": "Changez la langue",
+    "locale": "{locale, select, en {🇺🇸 English} it { 🇮🇹 Italian} fr {🇫🇷 français} other {Unknown}}"
+  },
+  "AccordionAbout": {
+    "productInformation": "Informations sur le produit",
+    "productDescription1": "Notre huile d’argan est 100% pure, vierge, pressée à froid et provient exclusivement de coopératives de femmes situées au sud du Maroc.",
+    "productDescription2": "Elle est naturellement riche en vitamine E, en antioxydants et en acides gras essentiels (oméga-6 et oméga-9), parfaits pour nourrir et protéger la peau, les cheveux et les ongles.",
+
+    "ingredients": "Ingrédients",
+    "ingredientsDescription1": "100% huile d’argan pure (Argania Spinosa Kernel Oil)",
+    "ingredientsDescription2": "Sans conservateurs, sans parfum, sans additifs.",
+
+    "usage": "Conseils d'utilisation",
+    "usageDescription1": "Peau : appliquer quelques gouttes matin et soir sur une peau propre.",
+    "usageDescription2": "Cheveux : en masque nourrissant avant shampoing, ou en soin sans rinçage sur les pointes.",
+    "usageDescription3": "Ongles : masser l’huile sur les ongles et cuticules pour les renforcer.",
+
+    "storage": "Conservation",
+    "storageDescription1": "À conserver dans un endroit sec à l’abri de la lumière et de la chaleur. Bien refermer après usage.",
+    "storageDescription2": "PAO (période après ouverture) : 12 mois.",
+
+    "certifications": "Certifications & engagements",
+    "certification1": "✔️ 100% naturel et biologique",
+    "certification2": "✔️ Certifié ECOCERT / USDA selon disponibilité",
+    "certification3": "✔️ Produit issu du commerce équitable",
+    "certification4": "✔️ Non testé sur les animaux",
+    "certification5": "✔️ Vegan",
+
+    "shippingDetails": "Détails de livraison",
+    "shippingDescription1": "Expédition sous 24 à 48 heures après validation de votre commande.",
+    "shippingDescription2": "Livraison en 3 à 7 jours ouvrés selon votre localisation, avec numéro de suivi.",
+
+    "returnPolicy": "Politique de retour",
+    "returnDescription1": "Vous avez 14 jours pour retourner un produit non ouvert et en parfait état.",
+    "returnDescription2": "Les retours sont gratuits en cas de produit défectueux ou abîmé. Contactez notre support pour démarrer la procédure.",
+
+    "faq": "Questions fréquentes",
+    "faqQuestion1": "Est-ce que l’huile est comestible ?",
+    "faqAnswer1": "Non, cette huile est à usage cosmétique uniquement.",
+    "faqQuestion2": "Convient-elle aux bébés ou femmes enceintes ?",
+    "faqAnswer2": "Oui, car elle est 100% naturelle, mais demandez l’avis de votre médecin si besoin."
+  },
+  "Footer": {
+    "aboutUs": "About us",
+    "aboutText": "Your nature-inspired supplier of all-organic and fresh produce for all your daily needs. We offer skin treatments, nutrition advisory and more.",
+    "contactUs": "Contact us",
+    "profile": "Profile",
+    "myAccount": "My account",
+    "checkout": "Checkout",
+    "wishlist": "Wishlist",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms Of Use",
+    "shippingPolicy": "Shipping Policy",
+    "refundPolicy": "Refund Policy",
+    "payment": "Payment",
+    "paymentText": "Alienum phaedrum torquatos nec eu, detr periculis ex, nihil expet.",
+    "backToTop": "Back to top",
+    "copyright": "Copyright © 2021 arganiatol, All Rights Reserved"
+  },
+  "GuaranteeSection": {
+    "item1": {
+      "title": "Completely Cruelty-Free",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    "item2": {
+      "title": "Completely Cruelty-Free",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    "item3": {
+      "title": "Ingredient Sourcing",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    }
+  },
+  "Header": {
+    "login": "Login",
+    "wishlist": "Wishlist ({count})"
+  },
+  "NewsletterForm": {
+    "newsletter": "Newsletter",
+    "signUp": "Sign up for news",
+    "emailPlaceholder": "Your e-mail...",
+    "readMore": "Read More"
+  },
+  "PhilosophySection": {
+    "aboutUs": "À propos",
+    "ourPhilosophy": "Notre philosophie",
+    "philosophyText": "Au cœur du sud marocain, l’arganier pousse depuis des siècles, bercé par le soleil et le vent du désert. Notre huile d’argan est le fruit d’un savoir-faire ancestral, transmis de mère en fille dans les coopératives locales.\n\nChez nous, pas de transformations inutiles ni de promesses exagérées : simplement une huile pure, extraite à la main, respectueuse de la terre et des femmes qui la cultivent.\n\nNotre philosophie est de rester fidèles à cette origine. Offrir une huile authentique, issue d’un commerce équitable, dans son état le plus naturel. Chaque flacon raconte une histoire de patience, de respect et de lien profond avec la nature.",
+    "callToAction": "Voir la collection"
+  }
+}

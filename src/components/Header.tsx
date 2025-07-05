@@ -2,13 +2,15 @@
 import Link from "next/link";
 import { useState } from "react";
 import Menu from "./Menu";
+import { useTranslations } from "next-intl";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("Header");
 
   return (
     <header className="bg-black sticky top-0 z-50">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between bg-black px-4 text-[#E5BC38]">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between bg-black px-4 text-[#E5BC38]">
         <nav className="hidden items-center space-x-4 lg:flex">
           <button className="flex space-x-2">
             <svg
@@ -33,7 +35,7 @@ const Header = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <span>Login</span>
+            <span>{t("login")}</span>
           </button>
           <Link href="/wishlist" className="flex space-x-2">
             <svg
@@ -52,11 +54,11 @@ const Header = () => {
               />
             </svg>
 
-            <span>Wishlist (0)</span>
+            <span>{t("wishlist", { count: 0 })}</span>
           </Link>
         </nav>
         <div className="flex items-center justify-center lg:flex-1">
-          <img src="/assets/logo.svg" alt="Logo" className="h-12 lg:h-12" />
+          <img src="/assets/logo.svg" alt="Logo" className="h-16 lg:h-16" />
         </div>
         <Link className="" href="/cart">
           <svg

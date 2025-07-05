@@ -1,18 +1,17 @@
 "use client";
 
 import { menuItems } from "@/constants/menu";
-import { User, X } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { X } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Menu({
-  isOpen,
   setIsOpen,
 }: {
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
 }) {
-  if (!isOpen) return null;
-
+  const t = useTranslations("Menu");
   return (
     <div className="fixed inset-0 z-50 flex">
       <button
@@ -29,7 +28,7 @@ export default function Menu({
           loop
           muted
           playsInline
-          className="h-full aspect-video object-cover"
+          className="h-full aspect-video object-cover w-full"
         >
           <source
             src="https://res.cloudinary.com/dvoryr7ba/video/upload/v1751368192/header_loop_nzgtdu.mp4"
@@ -53,17 +52,16 @@ export default function Menu({
             onClick={() => setIsOpen(false)}
             className="relative group poppins"
           >
-            <span className=" text-nowrap">{item.label}</span>
+            <span className="capitalize text-nowrap">{t(item.label)}</span>
             <span className="absolute left-0 -bottom-2 w-0 h-1 bg-[#E5BC38] transition-all group-hover:w-full duration-300" />
           </Link>
         ))}
         <div className="mt-10 w-full absolute top-0 poppins">
           <Link
-            className="flex items-center [&_svg:not([class*='size-'])]:size-6 lg:[&_svg:not([class*='size-'])]:size-10 space-x-2"
+            className="flex items-center [&_svg:not([class*='size-'])]:size-10 lg:[&_svg:not([class*='size-'])]:size-14 space-x-2"
             href={"/login"}
           >
-            <User />
-            <span className="text-xl lg:text-4xl">login</span>
+            <span className="">{t("login")}</span>
           </Link>
         </div>
       </div>

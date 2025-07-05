@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 type GuaranteeItem = {
   title: string;
@@ -6,28 +9,27 @@ type GuaranteeItem = {
   icon: string; // chemin vers l'image SVG
 };
 
-const items: GuaranteeItem[] = [
-  {
-    title: "Completely Cruelty-Free",
-    description:
-      "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients",
-    icon: "/assets/svgs/organic.svg",
-  },
-  {
-    title: "Completely Cruelty-Free",
-    description:
-      "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients",
-    icon: "/assets/svgs/free.svg",
-  },
-  {
-    title: "Ingredient Sourcing",
-    description:
-      "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients",
-    icon: "/assets/svgs/guaranty.svg",
-  },
-];
-
 export default function GuaranteeSection() {
+  const t = useTranslations("GuaranteeSection");
+
+  const items: GuaranteeItem[] = [
+    {
+      title: t("item1.title"),
+      description: t("item1.description"),
+      icon: "/assets/svgs/organic.svg",
+    },
+    {
+      title: t("item2.title"),
+      description: t("item2.description"),
+      icon: "/assets/svgs/free.svg",
+    },
+    {
+      title: t("item3.title"),
+      description: t("item3.description"),
+      icon: "/assets/svgs/guaranty.svg",
+    },
+  ];
+
   return (
     <section className="bg-[#FFF6DA] py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 text-center">

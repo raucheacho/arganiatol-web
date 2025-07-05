@@ -1,6 +1,7 @@
 "use client";
 
 import { menuItems } from "@/constants/menu";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -8,10 +9,11 @@ import Menu from "./Menu";
 
 export default function HeaderSecond() {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("Menu");
 
   return (
     <header className="bg-black text-[#E5BC38] sticky top-0 z-50">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4">
         {/* Logo */}
         <Link href={"/"} className="lg:flex items-center">
           <Image
@@ -19,7 +21,7 @@ export default function HeaderSecond() {
             alt="Logo"
             width={50}
             height={50}
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
         </Link>
 
@@ -27,7 +29,7 @@ export default function HeaderSecond() {
         <nav className="hidden lg:flex items-center space-x-5">
           {menuItems.map((item, idx) => (
             <Link key={idx} href={item.href} className="hover:text-amber-300">
-              <span className="text-amber-300">{item.label}</span>
+              <span className="text-amber-300">{t(item.label)}</span>
             </Link>
           ))}
         </nav>
@@ -58,7 +60,7 @@ export default function HeaderSecond() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span>Login</span>
+            <span>{t("login")}</span>
           </button>
 
           {/* Wishlist */}
@@ -78,7 +80,7 @@ export default function HeaderSecond() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span>Wishlist (0)</span>
+            <span>{t("whishlist")}(0)</span>
           </Link>
 
           {/* Cart */}

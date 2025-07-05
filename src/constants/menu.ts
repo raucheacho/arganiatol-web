@@ -1,7 +1,7 @@
 export const menuItems = [
-  { label: "Home", href: "/" },
+  { label: "home", href: "/" },
   { label: "collections", href: "/collections" },
-  { label: "Our Story", href: "/about-us" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contact-us", href: "/contact-us" },
+  { label: "ourStory", href: "/about-us" },
+  { label: "blog", href: "/blog" },
+  { label: "contactUs", href: "/contact-us" },
 ];

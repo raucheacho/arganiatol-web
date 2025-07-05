@@ -1,0 +1,102 @@
+{
+  "Menu": {
+    "login": "Accedi",
+    "home": "Home",
+    "collections": "Collezioni",
+    "ourStory": "Scopri di più",
+    "blog": "Articoli",
+    "contactUs": "Contattaci",
+    "wishlist": "lista dei desideri"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {🇺🇸 English} it { 🇮🇹 Italian} fr {🇫🇷 français} other {Unknown}}"
+  },
+  "AccordionAbout": {
+    "productInformation": "Informazioni sul prodotto",
+    "productDescription1": "Il nostro olio di argan è 100% puro, vergine, spremuto a freddo e proviene esclusivamente da cooperative femminili del sud del Marocco.",
+    "productDescription2": "È naturalmente ricco di vitamina E, antiossidanti e acidi grassi essenziali (omega-6 e omega-9), perfetto per nutrire e proteggere pelle, capelli e unghie.",
+
+    "ingredients": "Ingredienti",
+    "ingredientsDescription1": "100% olio di argan puro (Argania Spinosa Kernel Oil)",
+    "ingredientsDescription2": "Senza conservanti, senza profumi, senza additivi.",
+
+    "usage": "Modalità d'uso",
+    "usageDescription1": "Pelle: applicare alcune gocce mattina e sera sulla pelle pulita.",
+    "usageDescription2": "Capelli: usare come maschera prima dello shampoo o applicare sulle punte senza risciacquo.",
+    "usageDescription3": "Unghie: massaggiare l’olio su unghie e cuticole per rafforzarle.",
+
+    "storage": "Conservazione",
+    "storageDescription1": "Conservare in un luogo fresco, asciutto e lontano dalla luce e dal calore. Chiudere bene dopo l’uso.",
+    "storageDescription2": "Periodo dopo l’apertura: 12 mesi.",
+
+    "certifications": "Certificazioni & impegni",
+    "certification1": "✔️ 100% naturale e biologico",
+    "certification2": "✔️ Certificato ECOCERT / USDA se disponibile",
+    "certification3": "✔️ Prodotto del commercio equo",
+    "certification4": "✔️ Non testato su animali",
+    "certification5": "✔️ Vegan",
+
+    "shippingDetails": "Dettagli di spedizione",
+    "shippingDescription1": "Spedizione entro 24-48 ore dalla conferma dell’ordine.",
+    "shippingDescription2": "Consegna tra 3 e 7 giorni lavorativi a seconda della destinazione, con tracking incluso.",
+
+    "returnPolicy": "Politica di reso",
+    "returnDescription1": "Hai 14 giorni per restituire il prodotto, se non aperto e in perfette condizioni.",
+    "returnDescription2": "I resi sono gratuiti in caso di prodotto difettoso o danneggiato. Contatta il nostro supporto per iniziare la procedura.",
+
+    "faq": "Domande frequenti",
+    "faqQuestion1": "L’olio è commestibile?",
+    "faqAnswer1": "No, questo olio è solo per uso cosmetico.",
+    "faqQuestion2": "È sicuro per bambini o donne in gravidanza?",
+    "faqAnswer2": "Sì, è 100% naturale, ma puoi consultare il tuo medico se hai dubbi."
+  },
+  "Footer": {
+    "aboutUs": "About us",
+    "aboutText": "Your nature-inspired supplier of all-organic and fresh produce for all your daily needs. We offer skin treatments, nutrition advisory and more.",
+    "contactUs": "Contact us",
+    "profile": "Profile",
+    "myAccount": "My account",
+    "checkout": "Checkout",
+    "wishlist": "Wishlist",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms Of Use",
+    "shippingPolicy": "Shipping Policy",
+    "refundPolicy": "Refund Policy",
+    "payment": "Payment",
+    "paymentText": "Alienum phaedrum torquatos nec eu, detr periculis ex, nihil expet.",
+    "backToTop": "Back to top",
+    "copyright": "Copyright © 2021 arganiatol, All Rights Reserved"
+  },
+  "GuaranteeSection": {
+    "item1": {
+      "title": "Completely Cruelty-Free",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    "item2": {
+      "title": "Completely Cruelty-Free",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    "item3": {
+      "title": "Ingredient Sourcing",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    }
+  },
+  "Header": {
+    "login": "Login",
+    "wishlist": "Wishlist ({count})"
+  },
+  "NewsletterForm": {
+    "newsletter": "Newsletter",
+    "signUp": "Sign up for news",
+    "emailPlaceholder": "Your e-mail...",
+    "readMore": "Read More"
+  },
+  "PhilosophySection": {
+    "aboutUs": "Chi siamo",
+    "ourPhilosophy": "La nostra filosofia",
+    "philosophyText": "Nel cuore del sud del Marocco, l’albero di argan cresce da secoli sotto il sole caldo e il vento del deserto. Il nostro olio è il risultato di una tradizione antica, tramandata di madre in figlia nelle cooperative locali.\n\nNon aggiungiamo nulla di superfluo, non facciamo promesse eccessive: solo olio puro, estratto a mano, nel rispetto della terra e delle donne che lo producono.\n\nLa nostra filosofia è semplice: restare fedeli alle origini. Offrire un olio autentico, naturale, e sostenibile. Ogni bottiglia è una storia di pazienza, rispetto e profondo legame con la natura.",
+    "callToAction": "La nostra collezione"
+  }
+}

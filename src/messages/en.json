@@ -1,0 +1,103 @@
+{
+  "Menu": {
+    "login": "Login",
+    "home": "Home",
+    "collections": "collections",
+    "ourStory": "Our Story",
+    "blog": "Blog",
+    "contactUs": "Contact-Us",
+    "wishlist": "wishlist"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {🇺🇸 English} it { 🇮🇹 Italian} fr {🇫🇷 français} other {Unknown}}"
+  },
+  "AccordionAbout": {
+    "productInformation": "Product Information",
+    "productDescription1": "Our argan oil is 100% pure, virgin, cold-pressed, and sourced exclusively from women’s cooperatives in southern Morocco.",
+    "productDescription2": "It is naturally rich in vitamin E, antioxidants, and essential fatty acids (omega-6 and omega-9), ideal for nourishing and protecting skin, hair, and nails.",
+
+    "ingredients": "Ingredients",
+    "ingredientsDescription1": "100% pure argan oil (Argania Spinosa Kernel Oil)",
+    "ingredientsDescription2": "No preservatives, no fragrances, no additives.",
+
+    "usage": "How to Use",
+    "usageDescription1": "Skin: Apply a few drops morning and night to clean skin.",
+    "usageDescription2": "Hair: Use as a pre-shampoo mask or apply to ends as a leave-in treatment.",
+    "usageDescription3": "Nails: Massage oil into nails and cuticles to strengthen.",
+
+    "storage": "Storage",
+    "storageDescription1": "Store in a dry place away from heat and light. Close tightly after use.",
+    "storageDescription2": "Shelf life after opening: 12 months.",
+
+    "certifications": "Certifications & Commitments",
+    "certification1": "✔️ 100% natural and organic",
+    "certification2": "✔️ ECOCERT / USDA certified where available",
+    "certification3": "✔️ Fair trade product",
+    "certification4": "✔️ Not tested on animals",
+    "certification5": "✔️ Vegan",
+
+    "shippingDetails": "Shipping Details",
+    "shippingDescription1": "Orders are shipped within 24–48 hours after confirmation.",
+    "shippingDescription2": "Delivery takes 3 to 7 business days depending on your location, with tracking provided.",
+
+    "returnPolicy": "Return Policy",
+    "returnDescription1": "You have 14 days to return a product that is unopened and in perfect condition.",
+    "returnDescription2": "Returns are free in case of defective or damaged products. Contact our support to begin the process.",
+
+    "faq": "Frequently Asked Questions",
+    "faqQuestion1": "Is the oil edible?",
+    "faqAnswer1": "No, this oil is for cosmetic use only.",
+    "faqQuestion2": "Is it safe for babies or pregnant women?",
+    "faqAnswer2": "Yes, it’s 100% natural, but you may consult a doctor if needed."
+  },
+  "Footer": {
+    "aboutUs": "About us",
+    "aboutText": "Your nature-inspired supplier of all-organic and fresh produce for all your daily needs. We offer skin treatments, nutrition advisory and more.",
+    "contactUs": "Contact us",
+    "profile": "Profile",
+    "myAccount": "My account",
+    "checkout": "Checkout",
+    "wishlist": "Wishlist",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms Of Use",
+    "shippingPolicy": "Shipping Policy",
+    "refundPolicy": "Refund Policy",
+    "payment": "Payment",
+    "paymentText": "Alienum phaedrum torquatos nec eu, detr periculis ex, nihil expet.",
+    "backToTop": "Back to top",
+    "copyright": "Copyright © 2025 arganiatol, All Rights Reserved"
+  },
+  "GuaranteeSection": {
+    "item1": {
+      "title": "Completely Cruelty-Free",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    "item2": {
+      "title": "Completely Cruelty-Free",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    "item3": {
+      "title": "Ingredient Sourcing",
+      "description": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    }
+  },
+  "Header": {
+    "login": "Login",
+    "wishlist": "Wishlist ({count})"
+  },
+  "NewsletterForm": {
+    "newsletter": "Newsletter",
+    "signUp": "Sign up for news",
+    "emailPlaceholder": "Your e-mail...",
+    "readMore": "Read More"
+  },
+
+  "PhilosophySection": {
+    "aboutUs": "About us",
+    "ourPhilosophy": "Our Philosophy",
+    "philosophyText": "In the heart of southern Morocco, the argan tree has grown for centuries under the warm sun and desert winds. Our argan oil is born from a tradition passed down from mother to daughter in local cooperatives.\n\nNo unnecessary processing, no bold claims — just pure, hand-extracted oil, respectful of the land and the women who bring it to life.\n\nOur philosophy is to stay true to this origin: to offer authentic, natural argan oil, sourced ethically and sustainably. Each bottle tells a story of patience, care, and a deep connection to nature.",
+    "callToAction": "Our collection"
+  }
+}

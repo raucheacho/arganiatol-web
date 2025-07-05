@@ -1,59 +1,97 @@
+"use client";
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useTranslations } from "next-intl";
 
 export function AccordionAbout() {
+  const t = useTranslations("AccordionAbout");
+
   return (
-    <Accordion
-      type="single"
-      collapsible
-      className="w-full"
-      defaultValue="item-1"
-    >
+    <Accordion type="multiple" className="w-full" defaultValue={["item-1"]}>
+      {/* Informations produit */}
       <AccordionItem value="item-1">
-        <AccordionTrigger>Product Information</AccordionTrigger>
+        <AccordionTrigger>{t("productInformation")}</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
-          <p>
-            Our flagship product combines cutting-edge technology with sleek
-            design. Built with premium materials, it offers unparalleled
-            performance and reliability.
-          </p>
-          <p>
-            Key features include advanced processing capabilities, and an
-            intuitive user interface designed for both beginners and experts.
-          </p>
+          <p>{t("productDescription1")}</p>
+          <p>{t("productDescription2")}</p>
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-2">
-        <AccordionTrigger>Shipping Details</AccordionTrigger>
+
+      {/* Ingrédients */}
+      <AccordionItem value="item-ingredients">
+        <AccordionTrigger>{t("ingredients")}</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
-          <p>
-            We offer worldwide shipping through trusted courier partners.
-            Standard delivery takes 3-5 business days, while express shipping
-            ensures delivery within 1-2 business days.
-          </p>
-          <p>
-            All orders are carefully packaged and fully insured. Track your
-            shipment in real-time through our dedicated tracking portal.
-          </p>
+          <p>{t("ingredientsDescription1")}</p>
+          <p>{t("ingredientsDescription2")}</p>
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-3">
-        <AccordionTrigger>Return Policy</AccordionTrigger>
+
+      {/* Utilisation */}
+      <AccordionItem value="item-usage">
+        <AccordionTrigger>{t("usage")}</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
-          <p>
-            We stand behind our products with a comprehensive 30-day return
-            policy. If you&apos;re not completely satisfied, simply return the
-            item in its original condition.
-          </p>
-          <p>
-            Our hassle-free return process includes free return shipping and
-            full refunds processed within 48 hours of receiving the returned
-            item.
-          </p>
+          <p>{t("usageDescription1")}</p>
+          <p>{t("usageDescription2")}</p>
+          <p>{t("usageDescription3")}</p>
+        </AccordionContent>
+      </AccordionItem>
+
+      {/* Conservation */}
+      <AccordionItem value="item-storage">
+        <AccordionTrigger>{t("storage")}</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <p>{t("storageDescription1")}</p>
+          <p>{t("storageDescription2")}</p>
+        </AccordionContent>
+      </AccordionItem>
+
+      {/* Certifications */}
+      <AccordionItem value="item-certifications">
+        <AccordionTrigger>{t("certifications")}</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-2 text-balance">
+          <p>{t("certification1")}</p>
+          <p>{t("certification2")}</p>
+          <p>{t("certification3")}</p>
+          <p>{t("certification4")}</p>
+          <p>{t("certification5")}</p>
+        </AccordionContent>
+      </AccordionItem>
+
+      {/* Livraison */}
+      <AccordionItem value="item-shipping">
+        <AccordionTrigger>{t("shippingDetails")}</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <p>{t("shippingDescription1")}</p>
+          <p>{t("shippingDescription2")}</p>
+        </AccordionContent>
+      </AccordionItem>
+
+      {/* Retours */}
+      <AccordionItem value="item-returns">
+        <AccordionTrigger>{t("returnPolicy")}</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <p>{t("returnDescription1")}</p>
+          <p>{t("returnDescription2")}</p>
+        </AccordionContent>
+      </AccordionItem>
+
+      {/* FAQ */}
+      <AccordionItem value="item-faq">
+        <AccordionTrigger>{t("faq")}</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <div>
+            <p className="font-semibold">{t("faqQuestion1")}</p>
+            <p>{t("faqAnswer1")}</p>
+          </div>
+          <div>
+            <p className="font-semibold">{t("faqQuestion2")}</p>
+            <p>{t("faqAnswer2")}</p>
+          </div>
         </AccordionContent>
       </AccordionItem>
     </Accordion>

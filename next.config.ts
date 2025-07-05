@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -18,6 +19,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+
+  trailingSlash: true,
 };
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin({
+  experimental: {
+    createMessagesDeclaration: [
+      "./src/messages/en.json",
+      "./src/messages/it.json",
+      "./src/messages/fr.json",
+    ],
+  },
+});
+export default withNextIntl(nextConfig);
